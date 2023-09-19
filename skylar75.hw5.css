@@ -1,8 +1,10 @@
 *{padding:0px;
 margin:0px; box-sizing: border-box;}
-<h1>{border-style: solid;border-color: black;position: relative;left: 10px;}
+<header>{border-style: solid;border-color: black;position: relative;left: 10px;background-color: antiquewhite;}
 <p>{width: 80px; text-align: center;}
-<footer>
+<footer>{<div style=position: fixed;bottom: 20px;right: 20px}
+
+
 
 
 
