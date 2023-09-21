@@ -1,8 +1,9 @@
 *{padding:0px;
 margin:0px; box-sizing: border-box;}
-<header>{border-style: solid;border-color: black;position: relative;left: 10px;background-color: antiquewhite;}
-<p>{width: 80px; text-align: center;}
-<footer>{<div style=position: fixed;bottom: 20px;right: 20px}
+header{border-bottom: solid;border-color: rgba(209, 90, 90, 0.884);position:sticky;top: 10px;background-color: antiquewhite; padding: 15px;}
+main{width: 80px; position: center;  background-color:blueviolet; border: 10px;}
+footer{position: fixed;bottom: 0px;background-color: aquamarine;}
+p{padding: 1em,1em,1em;}
 
 
 
