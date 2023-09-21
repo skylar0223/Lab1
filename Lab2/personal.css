@@ -1,5 +1,5 @@
-*{background-color: rgb(127, 255, 249);padding-left: 5px; margin-left: 0px;}
-header {font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(177, 120, 34); text-shadow: 5px;font-size: larger;
+*{background-color: rgb(255, 127, 165);padding-left: 5px; margin-left: 0px;}
+header {font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(177, 34, 113); text-shadow: 5px;font-size: larger;
 }
 main {text-decoration: dotted;position: fixed; display: flexbox;}
 footer {font-size: smaller; border: 10px; display: contents;}
