@@ -1,11 +1,5 @@
-*{background-color: rgb(226, 128, 157);padding-left: 5px; margin-left: 0px;}
-header {font-family: Arial, Helvetica, sans-serif;
-  color: rgb(182, 41, 119);
-   font-size: larger; 
+*{background-color: rgba(255, 184, 184, 0.911);padding-left: 5px; margin-left: 2px;}
+h1{border: 5px dashed wheat; text-align: center; font-style: oblique; color: brown; 
+}
 
-}
-main {text-d;}
-footer {font-size: smaller; border: 10px; display: contents;}
-h1 {
-  border: 1px dotted rgb(241, 239, 239);
-}
+
