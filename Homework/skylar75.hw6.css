@@ -1,33 +1,18 @@
-*{padding:0px;
-  margin: 0px;
-  box-sizing: content-box;
-}
 .grid-container {
-  display: grid;
-  grid-template-rows: repeat(3, 150px);
-  grid-template-columns: repeat(4, 150px);
-  gap: 1em;
-  }
-  .grid-item {
-  width: 150px;
-  height: 150px;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  color: var(--clr-light);
-  text-shadow: 1px 1px 1px #6b6b6b;
-  font-weight: 700;
-  font-size: 2rem;
-  }
-  .item-1 {
-  background-color:aquamarine
-  }
-  .item-2 {
-  background-color:wheat
-  }
-  .item-3 {
-  background-color: yellowgreen
-  }
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 10px; 
+        }
+        .grid-item  {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            border: 1px dashed rgba(221, 221, 221, 0.555);
+        }
+
+
+
+  
+
 
 

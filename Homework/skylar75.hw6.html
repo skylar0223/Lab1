@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8">
-   <title>Display Model</title>
-   <link rel="stylesheet" href="skylar75.hw6.css"/> 
- </head>
- 
- <body>
-   <h1>Header</h1>
-    <main>
-      <p>main</p>
-      <footer>
-        Copyright @ 2023 <br>
-        </footer>
-        </html>
+<head>
+    <meta charset="UTF-8">
+    <title>Display Model</title>
+    <link rel="stylesheet" href="skylar75.hw6.css">
+    <style>
+        .flex-container {
+            display: flex; 
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: stretch; 
+        }
+        .flex-item {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+    </div>
+    <style>
+        /* Define a CSS grid container */
+        .grid-container {
+            display: grid;
+            /* You can specify the number of rows and columns as desired */
+            grid-template-rows: repeat(3, 100px); /* Three rows, each 100px tall */
+            grid-template-columns: repeat(2, 1fr); /* Two columns, each taking up an equal fraction of available space */
+            gap: 10px; /* Gap between grid items */
+        }
+        .grid-item {
+            background-color: pink;
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+        <div class="grid-item">Item 4</div>
+        <div class="grid-item">Item 5</div>
+        <div class="grid-item">Item 6</div>
+    </div>
+</body>
+</html>
+
+           
+    
+    
+        
+   
+  
+
+
+
+
+
+
+
+
+
