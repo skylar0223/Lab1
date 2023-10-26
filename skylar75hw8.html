@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skylar75's Homework 8</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grade Converter and Treat Generator</h1>
+    <script>
+        // Prompt the user for a numeric grade value
+        const numericGrade = parseFloat(prompt("Enter a numeric grade (e.g., 95):"));
+
+        // Check if the input is a valid number
+        if (!isNaN(numericGrade)) {
+            // Determine the grade letter based on the numeric grade
+            let gradeLetter;
+            if (numericGrade >= 90 && numericGrade <= 100) {
+                gradeLetter = 'A';
+            } else if (numericGrade >= 80 && numericGrade < 90) {
+                gradeLetter = 'B';
+            } else if (numericGrade >= 70 && numericGrade < 80) {
+                gradeLetter = 'C';
+            } else if (numericGrade >= 60 && numericGrade < 70) {
+                gradeLetter = 'D';
+            } else {
+                gradeLetter = 'F';
+            }
+
+            // Determine the treat based on the grade letter
+            let treat;
+            switch (gradeLetter) {
+                case 'A':
+                    treat = 'Candy';
+                    break;
+                case 'B':
+                    treat = 'Apple';
+                    break;
+                case 'C':
+                    treat = 'Mint';
+                    break;
+                case 'D':
+                    treat = 'Pencil';
+                    break;
+                case 'F':
+                    treat = 'Awkward conversation with parents';
+                    break;
+            }
+
+            // Display the student's grade, grade letter, and treat in the console
+            console.log(`Numeric Grade: ${numericGrade}`);
+            console.log(`Grade Letter: ${gradeLetter}`);
+            console.log(`Treat: ${treat}`);
+        } else {
+            console.log("Invalid input. Please enter a numeric grade.");
+        }
+    </script>
+</body>
+</html>
